@@ -1,0 +1,31 @@
+@import "bootstrap/scss/bootstrap";
+
+.banner {
+  background-image: radial-gradient(circle, #000000, #301117, #5a161f, #841d1d, #ab2d0e);
+  padding: 10px 8px;
+  display: flex;
+  h1 {
+    font-size: 36px;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+    color: #000000;
+  }
+}
+
+.new_movie{
+  position: absolute;
+  right: 18px;
+}
+.content{
+  padding-left: 480px;
+  margin-top: 20px;
+  li{
+    font-size: 24px;
+    a{
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+}

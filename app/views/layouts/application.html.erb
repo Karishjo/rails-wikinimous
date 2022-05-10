@@ -11,6 +11,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="banner">
+      <div class ="back_to_list"><h1>MovieList</h1></div>
+      <div class ="new_movie"><h1><%= link_to "New movie", new_article_path %></h1></div>
+    </div>
+    <div class="content"><%= yield %></div>
   </body>
 </html>
